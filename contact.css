@@ -1,0 +1,143 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: black;
+}
+
+
+.header h1{
+  color: white;
+  margin: 20px;
+  font-size: 35px;
+  position: absolute;
+  top:70px;
+  left: 100px;
+  transition: .5s ease-out;
+  cursor: default;
+
+}
+
+
+.logo{
+    width:100px;
+    height:100px;
+    object-fit: contain;
+    position: relative;
+    top: 10px;
+    left: 55px;
+    color: white;
+    transition: 0.3s ease-in;
+    }
+
+.logo:hover{
+transform: scale(1.1);
+-ms-transform: scale(1);
+
+}
+
+.header h1:hover{
+    -webkit-text-stroke: 3px transparent;
+    color: #33ff99;
+}
+
+.overlay{
+  width: 100% ;
+  height: 100% ;
+  position: fixed;
+}
+
+
+
+body{
+
+}
+
+form{
+  max-width: 550px;
+  width: 90%;
+  color: White ;
+  text-align: left;
+  background-color: #33ff99 transparent;
+  margin: 10px auto 0;
+  padding: 10px;
+  border-radius: 3px;
+  box-sizing : border-box;
+}
+
+h1{
+  margin: 0;
+  text-align: center;
+  font-size: 30px;
+}
+
+label{
+  display: block;
+  margin: 25px 0;
+}
+
+input{
+  width: 100%;
+  padding : 10px;
+  box-sizing:border-box;
+  outline: none;
+  resize: none;
+  border: none;
+  border-bottom: 1px solid #33ff99;
+  color:white;
+  background-color: black;
+  transform: translateY(5px);
+  transition: 0.1s ease-out;
+}
+
+input:hover{
+    transform: translateY(0px);
+  background-color: #33ff99;
+  color: black;
+}
+textarea{
+  width: 100%;
+  padding : 10px;
+  box-sizing:border-box;
+  outline: none;
+  resize: none;
+  border: none;
+  border-bottom: 1px solid #33ff99;
+  color:white;
+  background-color: black;
+  transform: translateY(5px);
+  transition: 0.1s ease-out;
+}
+textarea:hover{
+  transform: translateY(0px);
+  background-color: #33ff99;
+  color: black;
+}
+
+
+input[type="text"]:focus, textarea:focus{
+  border-bottom: 2px solid #33ff99;
+  transform: scale(1.10);
+}
+
+.center{
+  text-align: center;
+}
+input[type ="submit"] {
+  margin-top: 30px;
+  width: 90%;
+  max-width: 200px;
+  background: #33ff99;
+  color: black;
+  font-size: 17px;
+  cursor: pointer;
+  border-radius: 3px;
+
+}
+
+#error-border {
+  border-bottom: 1px solid red;
+}
+#error{
+  color: red;
+}

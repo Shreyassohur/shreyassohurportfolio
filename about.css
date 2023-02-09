@@ -1,0 +1,136 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: black;
+}
+
+
+.header h1{
+  color: white;
+  margin: 20px;
+  font-size: 40px;
+  position: absolute;
+  top:70px;
+  left: 100px;
+  transition: .5s ease-out;
+  cursor: default;
+
+}
+
+
+.logo{
+    width:100px;
+    height:100px;
+    object-fit: contain;
+    position: relative;
+    top: 10px;
+    left: 55px;
+    color: white;
+    transition: 0.3s ease-in;
+    }
+
+.logo:hover{
+transform: scale(1.1);
+-ms-transform: scale(1);
+
+}
+
+.header h1:hover{
+    -webkit-text-stroke: 3px transparent;
+    color: #33ff99;
+}
+
+
+
+.box img{
+
+  height: 500px;
+  width: 500px;
+  margin: 0px;
+
+  position: relative;
+  top: 90px;
+  left:30px;
+  object-fit: contain;
+  background-color: transparent;
+
+}
+
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 8rem;
+}
+
+.about .image {
+  position: relative;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 42rem;
+          flex: 1 1 42rem;
+}
+
+
+.about .image img {
+  width: 600px;
+  height: 600px;
+  object-fit: contain;
+  padding: 2rem;
+}
+
+.about .content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 42rem;
+          flex: 1 1 42rem;
+          position: absolute;
+          left: 600px;
+          justify-content: center;
+          align-items: center;
+
+
+}
+
+.about .content span {
+  font-size: 50px;
+  color: #EA2027;
+  top: 90px;
+  left: 100px;
+  color: #33FF99;
+}
+
+.about .content .title {
+  font-size: 30px;
+  color: #fff;
+  margin-top: .5rem;
+}
+
+.about .content p {
+  font-size: 1.5rem;
+  color: #aaa;
+  padding: 1rem 0;
+  line-height: 2;
+}
+.about .content .btn{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  border: 3px;
+  padding: 8px;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: white;
+  align-items: center;
+  cursor: pointer;
+}
+
+
+.about .content .btn:hover{
+  background-color: white;
+  color: black;
+}

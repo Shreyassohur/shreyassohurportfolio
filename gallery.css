@@ -1,0 +1,100 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: black;
+}
+
+
+.header h1{
+  color: white;
+  margin: 20px;
+  font-size: 40px;
+  position: absolute;
+  top:70px;
+  left: 100px;
+  transition: .5s ease-out;
+  cursor: default;
+
+}
+
+
+.logo{
+    width:100px;
+    height:100px;
+    object-fit: contain;
+    position: relative;
+    top: 10px;
+    left: 55px;
+    color: white;
+    transition: 0.3s ease-in;
+    }
+
+.logo:hover{
+transform: scale(1.1);
+-ms-transform: scale(1);
+
+}
+
+.header h1:hover{
+    -webkit-text-stroke: 3px transparent;
+    color: #33ff99;
+}
+
+
+
+
+.img-gallery{
+  width: 80%;
+  margin: 100px auto 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 50px;
+
+}
+
+
+.img-gallery img{
+width: 110%;
+object-fit: contain;
+cursor: pointer;
+transition: 0.3s ease-in;
+}
+
+.img-gallery img:hover{
+transform: scale(1.2) ;
+border-radius: 8px;
+box-shadow: 0 32px 7px white;
+}
+
+.full-img{
+width: 10%;
+height: 10px;
+background: black;
+position: fixed;
+top :0;
+left : 0;
+display: none;
+align-items: center;
+justify-content: center;
+top: 350px;
+left: 620px;
+z-index: 100;
+}
+
+.full-img img{
+  width: 90%;
+  height: 90%;
+  position: fixed;
+  object-fit: contain;
+}
+
+
+.full-img span{
+  position: absolute;
+  top: -340px;
+  left: 610px;
+  font-size: 40px;
+  color: white;
+  cursor: pointer;
+}

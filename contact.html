@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!---Linking css to the page-->
+    <link rel="stylesheet" href="css/contact.css">
+    <script type="text/javascript"></script>
+    <script src="js/myfile.js"></script>
+
+
+
+    <!---Linking javascript to the page-->
+
+
+
+
+    <!---Linking font to the page-->
+    <title style="font-family: 'Tiro Bangla', serif;"> MEMORIA</title>
+
+    <!---adding icon on tab-->
+    <link rel="shortcut icon" type="image" href="images/m.jpg">
+  </head>
+
+  <body>
+
+    <div class="header">
+      <div class="logo">
+        <a href="index.html"><img src="images/Memorialogo.png" class= "logo"  /></a>
+      </div>
+      <h1 style = "font-size : 35px">CONTACT ME</h1>
+    </div>
+
+    <!-- ----------------------------contact validation form---------------- -->
+
+    <div id="overlay">
+       <form name ="contactForm" onsubmit="validateForm()" action ="" method="post" >
+        <h1>CONTACT ME</h1>
+
+        <label for="name">NAME:</label>
+        <input type="text" id="name" placeholder="Your Name">
+
+        <label for="email">EMAIL:</label>
+        <input type="text" id="email" placeholder="Your Email">
+
+
+        <label for="message">MESSAGE:</label>
+        <textarea id="message" placeholder= "Your Message" rows="6"></textarea>
+
+
+        <div class="center">
+          <input type="submit" value="Send Message">
+          <p id="Success!"></p>
+          <p id="error"></p>
+        </div>
+
+      </form>
+    </div>
+
+  </body>
+</html>

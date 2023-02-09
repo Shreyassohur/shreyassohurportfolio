@@ -1,0 +1,366 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: black;
+}
+
+
+.header h1{
+  color: white;
+  margin: 20px;
+  font-size: 40px;
+  position: absolute;
+  top:70px;
+  left: 100px;
+  transition: .5s ease-out;
+  cursor: default;
+
+}
+
+
+.logo{
+    width:100px;
+    height:100px;
+    object-fit: contain;
+    position: relative;
+    top: 10px;
+    left: 55px;
+    color: white;
+    transition: 0.3s ease-in;
+    }
+
+.logo:hover{
+transform: scale(1.1);
+-ms-transform: scale(1);
+
+}
+
+.header h1:hover{
+    -webkit-text-stroke: 3px transparent;
+    color: #33ff99;
+}
+
+.cv a{
+  text-align: center;
+text-decoration: none;
+margin: opx;
+padding: 8px;
+position: absolute;
+border: 3px;
+border-style: solid;
+border-radius: 20px;
+color: white;
+text-transform: uppercase;
+left: 170px;
+top:140px;
+transition: 0.3s ease-out;
+transform: translatex(3px);
+}
+
+
+.cv:hover a{
+  font-size: 18px;
+  border-color: #33ff99;
+  color: black;
+  -webkit-text-stroke: 0.5px black;
+  background-color: #33ff99;
+  transform: scale(2px);
+  transform: translatex(0px);
+}
+
+.container .shape1{
+  color: #33ff99;
+  margin: 0;
+  padding: 0;
+  object-position: center;
+  position: relative;
+  font-size: 30px;
+  top: 250px;
+  right: 0px;
+}
+
+
+
+.container .shape2{
+  color: #33ff99;
+  margin: 0px;
+  padding: 0px;
+  object-position: center;
+  position: absolute;
+  font-size: 20px;
+  left: 190px;
+  top:370px;
+}
+
+.container .shape3{
+  color: #33ff99;
+  background-color: red;
+  margin: 0px;
+  padding: 0px;
+  object-position: center;
+  position: absolute;
+  font-size: 20px;
+  left: 450px;
+  top:403px;
+}
+
+.container .shape4{
+  color: #33ff99;
+  background-color: red;
+  margin: 0px;
+  padding: 0px;
+  object-position: center;
+  position: absolute;
+  font-size: 20px;
+  left: 650px;
+  top:370px;
+}
+
+.container .shape5{
+  color: #33ff99;
+  background-color: red;
+  margin: 0px;
+  padding: 0px;
+  object-position: center;
+  position: absolute;
+  font-size: 20px;
+  left: 880px;
+  top:403px;
+}
+
+.container .shape6{
+  color: #33ff99;
+  background-color: red;
+  margin: 0px;
+  padding: 0px;
+  object-position: center;
+  position: absolute;
+  font-size: 20px;
+  left: 1110px;
+  top:370px;
+}
+
+
+.container .text1 h2{
+  border-radius: 90px;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  position: absolute;
+  color: #33ff99;
+  top: 270px;
+  left: 60px;
+  transition: 0.3s ease-in;
+  animation: 2s linear 0.7s infinite alternate animating-multiple-properties;
+  animation-iteration-count: 4.4;
+
+
+}
+
+@keyframes animating-multiple-properties {
+  from {
+    transform: translateY(-3vh);
+    background-color: black;
+    filter: brightness(100%);
+  }
+  to {
+    transform: translateY(0);
+    background-color: black;
+  }
+}
+
+.container .text1 h2:hover{
+  background-color: #33ff99;
+  padding: 10px;
+  border-radius: 100px;
+  color: black;
+background-image: linear-gradient(to top, #6effb7, #5bf9a7, #46f296, #2eec84, #00e572);
+}
+
+.container .text2 h2{
+  border-radius: 90px;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  position: absolute;
+  color: white;
+  top: 454px;
+  left: 300px;
+  transition: 0.3s ease-in;
+  animation: 2s linear 1.5s infinite alternate animating-multiple-properties;
+  animation-iteration-count: 4.5;
+
+
+}
+
+@keyframes animating-multiple-properties {
+  from {
+    transform: translateY(-3vh);
+    background-color: black;
+    filter: brightness(100%);
+  }
+  to {
+    transform: translateY(0);
+    background-color: black;
+  }
+}
+
+.container .text2 h2:hover{
+  background-color: #33ff99;
+  padding: 10px;
+  border-radius: 100px;
+  color: black;
+background-image: linear-gradient(to bottom, #6effb7, #5bf9a7, #46f296, #2eec84, #00e572);
+}
+
+.container .text3 h2{
+  border-radius: 90px;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  position: absolute;
+  color: #33ff99;
+  top: 270px;
+  left: 490px;
+  transition: 0.3s ease-in;
+  animation: 2s linear 2.3s infinite alternate animating-multiple-properties;
+  animation-iteration-count: 4.4;
+
+
+}
+@keyframes animating-multiple-properties {
+  from {
+    transform: translateY(-3vh);
+    background-color: black;
+    filter: brightness(100%);
+  }
+  to {
+    transform: translateY(0);
+    background-color: black;
+  }
+}
+
+.container .text3 h2:hover{
+  background-color: #33ff99;
+  padding: 10px;
+  border-radius: 100px;
+  color: black;
+background-image: linear-gradient(to top, #6effb7, #5bf9a7, #46f296, #2eec84, #00e572);
+}
+
+
+
+.container .text4 h2{
+  border-radius: 90px;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  position: absolute;
+  color: white;
+  top: 454px;
+  left: 750px;
+  transition: 0.3s ease-in;
+  animation: 2s linear 3s infinite alternate animating-multiple-properties;
+  animation-iteration-count: 4.5;
+
+
+}
+@keyframes animating-multiple-properties {
+  from {
+    transform: translateY(-3vh);
+    background-color: black;
+    filter: brightness(100%);
+  }
+  to {
+    transform: translateY(0);
+    background-color: black;
+  }
+}
+
+.container .text4 h2:hover{
+  background-color: #33ff99;
+  padding: 10px;
+  border-radius: 100px;
+  color: black;
+background-image: linear-gradient(to bottom, #6effb7, #5bf9a7, #46f296, #2eec84, #00e572);
+}
+
+
+.container .text5 h2{
+  border-radius: 90px;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  position: absolute;
+  color: #33ff99;
+  top: 270px;
+  left: 930px;
+  transition: 0.3s ease-in;
+   animation: 2s linear 3.8s infinite  alternate animating-multiple-properties;
+   animation-iteration-count: 4.5;
+}
+
+@keyframes animating-multiple-properties {
+  from {
+    transform: translateY(-3vh);
+    background-color: white;
+    filter: brightness(100%);
+    color: black;
+    transition: 0.1s ease-in;
+  }
+  to {
+    transform: translateY(0);
+    background-color: white;
+    color:black;
+  }
+}
+
+
+.container .text5 h2:hover {
+  background-color: #33ff99;
+  padding: 10px;
+  border-radius: 100px;
+  color: black;
+background-image: linear-gradient(to top, #6effb7, #5bf9a7, #46f296, #2eec84, #00e572);
+}
+
+
+
+
+/*animation dot on screen*/
+
+.dot {
+  background-color: #33ff99;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top:400px;
+  aspect-ratio: 1 / 1;
+  animation:
+    4.5s linear 0s alternate rise,
+    /* bounce 'overwrites' the transform set by rise */
+    4.5s linear 0s  alternate bounce;
+    /* hence the sun only moves horizontally */
+    animation-iteration-count: 4;
+    animation-duration: 4.5s;
+}
+
+@keyframes rise {
+  from {
+    transform: translateY(100px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes bounce {
+  from {
+    transform: translateX(-0vw);
+  }
+  to {
+    transform: translateX(95vw);
+  }
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!---Linking css to the page-->
+    <link rel="stylesheet" href="css/gallery.css">
+
+
+    <!---Linking javascript to the page-->
+
+     <script src="js/myfile.js"></script>
+
+
+    <!---Linking font to the page-->
+    <title style="font-family: 'Tiro Bangla', serif;"> MEMORIA</title>
+
+    <!---adding icon on tab-->
+    <link rel="shortcut icon" type="image" href="images/m.jpg">
+  </head>
+
+  <body>
+
+    <div class="header">
+      <div class="logo">
+        <a href="index.html"><img src="images/Memorialogo.png" class= "logo"  /></a>
+      </div>
+      <h1>GALLERY</h1>
+    </div>
+
+    <div class="full-img" id="fullImgBox">
+      <img src="images/green.jpg" alt="" id="fullImg">
+      <<span onclick="closeFullImg()">X</span>
+    </div>
+
+     <div class="img-gallery">
+       <img src="images/artista.jpg" alt=""  onclick="openFullImg(this.src)">
+       <img src="images/solitude.jpg" alt="" onclick="openFullImg(this.src)">
+       <img src="images/solitude-invert.jpg" alt="" onclick="openFullImg(this.src)">
+       <img src="images/fb.jpg" alt="" onclick="openFullImg(this.src)">
+       <img src="images/cosmic.jpg" alt="" onclick="openFullImg(this.src)">
+       <img src="images/green.jpg" alt="" onclick="openFullImg(this.src)">
+       <img src="images/chil.jpg" alt="" onclick="openFullImg(this.src)">
+
+
+     </div>
+
+     <script src="js/myfile.js"></script>
+
+  </body>
+</html>
